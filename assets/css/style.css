@@ -1545,12 +1545,43 @@
     /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-    
-    #footer {
-        background: #161616;
+
+#footer {
+       
+        background: url('../img/gallery/sergey-shmidt-koy6FlCCy5s-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 0 0 30px 0;
         color: #fff;
         font-size: 14px;
+        position: relative;z-index: 1;
+    }
+    
+    #footer1 {
+        position: absolute;
+        /*background: #161616;*/
+        background: #06050e;
+        color: #fff;
+        font-size: 14px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.95;
+        z-index: -1;
+    }
+    #footer2 {
+        position: absolute;
+        /*background: #161616;*/
+        background: #000000;
+        color: #fff;
+        font-size: 14px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0.50;
+        z-index: -1;
     }
     
     #footer .footer-top {
